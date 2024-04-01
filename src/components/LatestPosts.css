@@ -1,0 +1,243 @@
+.LatestPost {
+  background-color: #cbcdcf85;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-top: -5rem;
+  padding-top: 7rem;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../Roboto-Regular.ttf);
+}
+.main2-h1 {
+  display: block;
+  text-align: center;
+  font-family: Roboto;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.main2 {
+  margin-top: 3rem;
+  display: inline-block;
+  justify-content: space-between;
+}
+.cart1 {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 1rem;
+  height: 30rem;
+  width: 20rem;
+  border-radius: 6px;
+  margin-left: 9rem;
+  transition: 1s;
+}
+.cart1:hover {
+  transform: translatey(10px);
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+.pic {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 1px;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  margin-bottom: -5px;
+  display: inline-block;
+  padding: 10px;
+}
+.cart1 h3 {
+  display: inline-block;
+  transform: translate(3px, -1.5rem);
+  font-family: Roboto;
+}
+.cart1 h4 {
+  display: inline-block;
+  transform: translate(8rem, -1.5rem);
+  font-family: Roboto;
+}
+.picter {
+  width: 20rem;
+  margin-left: -1rem;
+}
+.cart1 h5 {
+  font-size: 20px;
+  margin-top: 1rem;
+  font-family: Roboto;
+}
+.cart1 h6 {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: Roboto;
+}
+.cart1 p {
+  display: inline-block;
+  transform: translateY(2.3rem);
+  margin-left: 10px;
+  justify-content: space-between;
+  font-family: Roboto;
+}
+.cart1 h2 {
+  display: inline-block;
+  margin-left: 12rem;
+  margin-top: 1.3rem;
+  font-size: 18px;
+  font-family: Roboto;
+}
+.LatestPost h2:hover {
+  cursor: pointer;
+  color: red;
+  text-shadow: 0 0 20px black;
+}
+.LatestPost p:hover {
+  color: red;
+  cursor: pointer;
+}
+/* __________________________________________ */
+
+.cart2 {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 1rem;
+  height: 30rem;
+  width: 20rem;
+  border-radius: 6px;
+  margin-left: 4rem;
+  transition: 1s;
+}
+.cart2:hover {
+  transform: translatey(10px);
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.cart2 h3 {
+  display: inline-block;
+  transform: translate(3px, -1.5rem);
+  font-family: Roboto;
+}
+.cart2 h4 {
+  display: inline-block;
+  transform: translate(8rem, -1.5rem);
+  font-family: Roboto;
+}
+
+.picter {
+  width: 20rem;
+  margin-left: -1rem;
+}
+.cart2 h5 {
+  font-size: 20px;
+  margin-top: 1rem;
+  font-family: Roboto;
+}
+.cart2 h6 {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: Roboto;
+}
+.cart2 p {
+  display: inline-block;
+  transform: translateY(2.3rem);
+  margin-left: 10px;
+  justify-content: space-between;
+  font-family: Roboto;
+}
+.cart2 h2 {
+  display: inline-block;
+  margin-left: 12rem;
+  margin-top: 1.3rem;
+  font-size: 18px;
+  font-family: Roboto;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.cart3 {
+  background-color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  height: 30rem;
+  width: 20rem;
+  border-radius: 6px;
+  transition: 1s;
+  margin-left: 4rem;
+}
+.cart3:hover {
+  transform: translatey(10px);
+  cursor: pointer;
+  background-color: rgba(255, 166, 0, 0.685);
+}
+
+.cart3 h3 {
+  display: inline-block;
+  transform: translate(3px, -1.5rem);
+  font-family: Roboto;
+}
+.cart3 h4 {
+  display: inline-block;
+  transform: translate(8rem, -1.5rem);
+  font-family: Roboto;
+}
+.picter {
+  width: 20rem;
+  margin-left: -1rem;
+}
+.cart3 h5 {
+  font-size: 20px;
+  margin-top: 1rem;
+  font-family: Roboto;
+}
+.cart3 h6 {
+  font-size: 15px;
+  font-weight: normal;
+}
+.cart3 p {
+  display: inline-block;
+  transform: translateY(2.8rem);
+  margin-left: 10px;
+  justify-content: space-between;
+  font-family: Roboto;
+}
+
+.cart3 h2 {
+  display: inline-block;
+  margin-left: 12rem;
+  margin-top: 1.3rem;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+@media (min-width: 1023px) and (max-width: 1200px) {
+  .cart2 {
+    margin-top: 30px;
+  }
+  .cart3 {
+    margin-top: 40px;
+    margin-left: 20rem;
+  }
+
+  .main2-h1 {
+    font-size: 12px;
+    margin-left: 3rem;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 820px) {
+  .LatestPost {
+    align-items: center;
+    width: 100%;
+  }
+  .cart1{
+    margin-bottom: 30px;
+    margin-left: 68px;
+  }
+
+  .cart3 {
+    margin-top: 50px;
+  }
+}
